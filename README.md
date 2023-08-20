@@ -57,6 +57,8 @@
   #直接启动
   python3 main.py
   #后台运行,记录日志(日志记录在当前目录的bot.log中)
+  nohup python3 main.py > /dev/null 2>&1 &
+
   nohup python3 -u main.py > monitor.log 2>&1 &
   ```
 
